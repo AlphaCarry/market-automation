@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MYeniMusteriFormu</class>
+ <widget class="QMainWindow" name="MYeniMusteriFormu">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>669</width>
+    <height>458</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QWidget" name="layoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>110</x>
+      <y>20</y>
+      <width>471</width>
+      <height>371</height>
+     </rect>
+    </property>
+    <layout class="QGridLayout" name="gridLayout">
+     <item row="0" column="0" colspan="2">
+      <widget class="QLabel" name="lblMusteriAdi">
+       <property name="text">
+        <string>Müşteri Adı</string>
+       </property>
+      </widget>
+     </item>
+     <item row="4" column="0" colspan="2">
+      <widget class="QLabel" name="lblMusteriCinsiyet">
+       <property name="text">
+        <string>Cinsiyet</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="2" colspan="3">
+      <widget class="QPlainTextEdit" name="pteMusteriAdresi"/>
+     </item>
+     <item row="0" column="2" colspan="3">
+      <widget class="QLineEdit" name="leMusteriAdi"/>
+     </item>
+     <item row="2" column="0" colspan="2">
+      <widget class="QLabel" name="lblMusteriTelefonu">
+       <property name="text">
+        <string>Müşteri Telefonu</string>
+       </property>
+      </widget>
+     </item>
+     <item row="5" column="0">
+      <widget class="QPushButton" name="btnKaydet">
+       <property name="text">
+        <string>Kaydet</string>
+       </property>
+      </widget>
+     </item>
+     <item row="4" column="2">
+      <widget class="QRadioButton" name="rbKadin">
+       <property name="text">
+        <string>Kadın</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="0" colspan="2">
+      <widget class="QLabel" name="lblMusteriAdresi">
+       <property name="text">
+        <string>Müşteri Adresi</string>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="2" colspan="3">
+      <widget class="QLineEdit" name="leMusteriTelefon">
+       <property name="inputMask">
+        <string>\o(D99)999 99 99</string>
+       </property>
+       <property name="maxLength">
+        <number>15</number>
+       </property>
+       <property name="cursorPosition">
+        <number>3</number>
+       </property>
+      </widget>
+     </item>
+     <item row="5" column="4">
+      <widget class="QPushButton" name="btnIptal">
+       <property name="text">
+        <string>İptal</string>
+       </property>
+      </widget>
+     </item>
+     <item row="4" column="3">
+      <widget class="QRadioButton" name="rbErkek">
+       <property name="text">
+        <string>Erkek</string>
+       </property>
+      </widget>
+     </item>
+     <item row="5" column="2" colspan="2">
+      <spacer name="horizontalSpacer">
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+       <property name="sizeHint" stdset="0">
+        <size>
+         <width>40</width>
+         <height>20</height>
+        </size>
+       </property>
+      </spacer>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>669</width>
+     <height>25</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
